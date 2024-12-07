@@ -77,9 +77,9 @@ for url in property_urls:
 
 # Create a Pandas DataFrame and save it to an Excel file
 df = pd.DataFrame(property_data)
-df.to_excel('property_data_unique.xlsx', index=False)
+df.to_excel('property_data.xlsx', index=False)
 
 # Close the WebDriver
 driver.quit()
 
-print("Data scraped and saved to property_data_unique.xlsx")
+print("Data scraped and saved to property_data.xlsx")
